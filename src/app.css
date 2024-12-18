@@ -1,0 +1,30 @@
+:root {
+	--bg: #cbd5e1;
+	--primary: #0891b2;
+	--secondary: #f1f5f9;
+	--accent: #020617;
+
+  --toast-error: #dc2626;
+  --toast-success: #16a34a;
+  --toast-info: #2563eb;
+  --toast-warning: #ea580c;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	background-color: var(--bg);
+	display: grid;
+	place-content: center;
+}
